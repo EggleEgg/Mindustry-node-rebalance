@@ -4389,7 +4389,7 @@ public class Blocks{
                 reloadMultiplier = 0.8f;
                 splashDamageRadius = 110f;
                 rangeChange = 8f;
-                splashDamage = 300f;
+                splashDamage = 200f;
                 scaledSplashDamage = true;
                 hitColor = backColor = trailColor = Color.valueOf("a0b380");
                 frontColor = Color.valueOf("e4ffd6");
@@ -4419,7 +4419,7 @@ public class Blocks{
                     lifetime = 60f * 2.5f;
                     bulletInterval = 20f;
                     intervalBullet = new EmptyBulletType(){{
-                        splashDamage = 30f;
+                        splashDamage = 20f;
                         collidesGround = true;
                         collidesAir = false;
                         collides = false;
