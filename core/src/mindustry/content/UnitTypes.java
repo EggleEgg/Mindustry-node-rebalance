@@ -3100,7 +3100,7 @@ public class UnitTypes{
                     trailWidth = 2f;
                     trailLength = 4;
                     shake = 1f;
-                    buildingDamageMultiplier = 0.66f;
+                    buildingDamageMultiplier = 0.67f;
 
                     trailEffect = Fx.missileTrail;
                     trailParam = 1.8f;
